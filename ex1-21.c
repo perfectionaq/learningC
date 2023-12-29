@@ -2,8 +2,6 @@
 
 #define TAPSTOP 4
 #define MAXLENGTH 1000
-#define IN 1
-#define OUT 0
 
 void entab(char string[]);
 int get_line(char s[], int lim);
