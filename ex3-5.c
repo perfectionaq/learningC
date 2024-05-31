@@ -50,6 +50,7 @@ void reverse(char s[]) {
     for (i = 0; i < string_length; i++)
         temp[i] = s[i];
 
+    // copy the string back from temp to the source string in reverse
     for (i = 0; i < string_length; i++)
         s[i] = temp[string_length - 1 - i];
 
