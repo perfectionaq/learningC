@@ -137,5 +137,3 @@ void ungetch(int c)
 	else
 		buf[bufp++] = c;
 }
-
-// -123 23 -
